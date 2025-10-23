@@ -106,11 +106,9 @@ DELETE -> /api/Tarea/DeleteTarea/{id} -> Endpoint para eliminar registro de 'Tar
     "fechaCreacion": "2025-10-23T16:45:29.6950356"
   }
 ]
-```
-------------------------------------------------------------
+
 💾 Ejemplo de JSON (Consultar Tarea por Id)
-------------------------------------------------------------
-```
+
 1) GET -> /api/Tarea/TareaById/{6}
 2) 404:
 {
@@ -146,11 +144,9 @@ DELETE -> /api/Tarea/DeleteTarea/{id} -> Endpoint para eliminar registro de 'Tar
   "completada": false,
   "fechaCreacion": "2025-10-23T16:45:29.6950356"
 }
-```
-------------------------------------------------------------
+
 💾 Ejemplo de JSON (Modificar Tarea)
-------------------------------------------------------------
-```
+
 1) PUT -> /api/Tarea/ModifyTarea/{3}
 [FromBody]
 {
@@ -197,18 +193,14 @@ DELETE -> /api/Tarea/DeleteTarea/{id} -> Endpoint para eliminar registro de 'Tar
   "completada": false,
   "fechaCreacion": "2025-10-23T16:45:29.6950356"
 }
-```
-------------------------------------------------------------
+
 💾 Ejemplo de JSON (Marcar Tarea completada)
-------------------------------------------------------------
-```
+
 1) PATCH -> /api/Tarea/CompleteTarea/{3}
 2) 200 -> true
-```
-------------------------------------------------------------
+
 💾 Ejemplo de JSON (Eliminar Tarea)
-------------------------------------------------------------
-```
+
 1) DELETE -> /api/Tarea/DeleteTarea/{3}
 2) 200 -> true
 ```
