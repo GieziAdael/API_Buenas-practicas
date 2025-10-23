@@ -19,7 +19,7 @@ V) Documentacion automatica generada por Swagger
 ------------------------------------------------------------
 🧱 Estructura del proyecto
 ------------------------------------------------------------
-'''
+```
 📁 API_Buenas-practicas
  ┣📁 Controllers
  ┃┗ TareaController.cs
@@ -40,29 +40,29 @@ V) Documentacion automatica generada por Swagger
  ┣ Program.cs
  ┗ README.md
 
-'''
+```
 
 ------------------------------------------------------------
 🧩 Entidad principal: Tarea
 ------------------------------------------------------------
-'''
+```
 public int Id --> [Primary Key]
 public string Titulo --> [nvarchar(50), NOT NULL]
 public string Descripcion --> [nvarchar(150)]
 public bool Completada -- [True or False]
 public DateTime FechaCreacion --> [DateTime.Now]
-'''
+```
 
 ------------------------------------------------------------
 🧰 Tecnologías utilizadas
 ------------------------------------------------------------
-'''
+```
 - .NET 8.0 / ASP.NET Core Web API
 - Entity Framework Core
 - C# 12
 - Swagger
 - SQL Server LocalDB
-'''
+```
 
 
 ------------------------------------------------------------
