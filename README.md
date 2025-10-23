@@ -8,13 +8,13 @@ de Swagger.
 ------------------------------------------------------------
 🚀 Caracteristicas Principales
 ------------------------------------------------------------
-'''
+```
 I) CRUD completo de la entidad Tarea
 II) Arquitectura modular con separacion de capas
 III) Repositorio / IRepositorio de la entidad Tarea
 IV) Integracion de AutoMapper
 V) Documentacion automatica generada por Swagger
-'''
+```
 
 ------------------------------------------------------------
 🧱 Estructura del proyecto
@@ -80,10 +80,11 @@ PATCH -> /api/Tarea/CompleteTarea/{id} -> Endpoint para marcar 'Tarea' como term
 
 DELETE -> /api/Tarea/DeleteTarea/{id} -> Endpoint para eliminar registro de 'Tarea'
 
-------------------------------------------------------------
-💾 Ejemplo de JSON (Crear Tarea)
-------------------------------------------------------------
+
+
 ```
+💾 Ejemplo de JSON (Crear Tarea)
+
 1) POST -> /api/Tarea/NewTarea
 [FromBody]
 {
@@ -91,11 +92,9 @@ DELETE -> /api/Tarea/DeleteTarea/{id} -> Endpoint para eliminar registro de 'Tar
   "descripcion": "Leer pagina 50, razonar el por que de las cosas, reflexionar en el baño y suicidarse"
 }
 2) 200 -> true
-```
-------------------------------------------------------------
+
 💾 Ejemplo de JSON (Consultar Tareas)
-------------------------------------------------------------
-```
+
 1) GET -> /api/Tarea/AllTareas
 2) 200 ->
 [
