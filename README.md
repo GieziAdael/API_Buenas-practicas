@@ -89,7 +89,7 @@ DELETE -> /api/Tarea/DeleteTarea/{id} -> Endpoint para eliminar registro de 'Tar
 [FromBody]
 {
   "titulo": "Filosofia",
-  "descripcion": "Leer pagina 50, razonar el por que de las cosas, reflexionar en el baño y suicidarse"
+  "descripcion": "Leer pagina 50, razonar el por que de las cosas."
 }
 2) 200 -> true
 
@@ -101,7 +101,7 @@ DELETE -> /api/Tarea/DeleteTarea/{id} -> Endpoint para eliminar registro de 'Tar
   {
     "id": 3,
     "titulo": "Filosofia",
-    "descripcion": "Leer pagina 50, razonar el por que de las cosas, reflexionar en el baño y suicidarse",
+    "descripcion": "Leer pagina 50, razonar el por que de las cosas.",
     "completada": false,
     "fechaCreacion": "2025-10-23T16:45:29.6950356"
   }
@@ -140,7 +140,7 @@ DELETE -> /api/Tarea/DeleteTarea/{id} -> Endpoint para eliminar registro de 'Tar
 {
   "id": 3,
   "titulo": "Filosofia",
-  "descripcion": "Leer pagina 50, razonar el por que de las cosas, reflexionar en el baño y suicidarse",
+  "descripcion": "Leer pagina 50, razonar el por que de las cosas.,
   "completada": false,
   "fechaCreacion": "2025-10-23T16:45:29.6950356"
 }
