@@ -208,8 +208,7 @@ DELETE -> /api/Tarea/DeleteTarea/{id} -> Endpoint para eliminar registro de 'Tar
 ------------------------------------------------------------
 🧑‍💻 Autor
 ------------------------------------------------------------
-```
-Desarrollador: GieziAdael
-Rol: Backend Developer (.NET Junior)
+Desarrollador: GieziAdael<br>
+Rol: Backend Developer (.NET Junior)<br>
 Contacto: giezi.tlaxcoapan@gmail.com
-```
+
